@@ -17,10 +17,11 @@ body {
     z-index: -1;
 }
 
-.bg-img {
-    height: 50vh;
+.bg-image {
+    height: 60vh;
     width: 100vw;
     position: absolute;
+    filter:brightness(40%);
     top: 0;
     left: 0;
     z-index: -1;
