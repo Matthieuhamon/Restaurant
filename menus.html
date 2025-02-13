@@ -43,30 +43,82 @@
             <!-- FIN MENU NAVIGATION-->
         </header>
     </section>
+
+    <!-- Titre accueil-->
     <div class="container" style="margin-top: 15vh;">
       <h2 class="text-center text-white">Menus</h2>
     </div>
 
-    <!-- Section Menu -->
-    <main class="container mb-5" style="margin-top: 40vh;">
-  
-      <!-- Catégorie : Entrées -->
+    <!-- Menu -->
+    <main class="container mb-5" style="margin-top: 22vh;">
+
+      <section id="plats-populaires" class="mb-5">
+        <div class="container">
+          <div class="row g-4">
+            <!-- Plat 1 -->
+            <div class="col-md-4">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Plat populaire" style="height: 300px;">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Filet de Boeuf</h5>
+                  <p class="card-text">Avec une sauce au poivre et pommes de terre sautées.</p>
+                  <span class="badge bg-primary">Le plus commandé</span>
+                </div>
+              </div>
+            </div>
+            <!-- Plat 2 -->
+            <div class="col-md-4">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Plat populaire" style="height: 300px;">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Saumon Grillé</h5>
+                  <p class="card-text">Avec une touche de citron et légumes croquants.</p>
+                  <span class="badge bg-warning">Favori du chef</span>
+                </div>
+              </div>
+            </div>
+            <!-- Plat 3 -->
+            <div class="col-md-4">
+              <div class="card border-0 shadow-lg h-100">
+                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Plat populaire" style="height: 300px;">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Risotto</h5>
+                  <p class="card-text">Crémeux, aux champignons et parmesan.</p>
+                  <span class="badge bg-success">Nouveau</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Entrées -->
       <section id="entrees" class="mb-5">
         <h2 class="text-center mb-4">Entrées</h2>
-        <div class="row g-4">
+        <div class="row g-4 text-center">
           <!-- Exemple d'une carte Bootstrap -->
           <div class="col-md-4">
             <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Entrée">
+              <img src="assets/img/entrée_1.jpg" class="card-img-top object-fit-cover" alt="Entrée" style="height: 300px;">
               <div class="card-body">
                 <h5 class="card-title">Salade César</h5>
                 <p class="card-text">Délicieuse salade composée de laitue, croûtons, parmesan et sauce César.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 popular">
+          <div class="col-md-4">
             <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Entrée populaire">
+              <img src="assets/img/entrée_2.jpg" class="card-img-top object-fit-cover" alt="Entrée" style="height: 300px;">
+              <div class="card-body">
+                <h5 class="card-title">Soupe à l'oignon</h5>
+                <p class="card-text">Un classique français avec une touche de fromage gratiné.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Entrée" style="height: 300px;">
               <div class="card-body">
                 <h5 class="card-title">Soupe à l'oignon</h5>
                 <p class="card-text">Un classique français avec une touche de fromage gratiné.</p>
@@ -75,48 +127,72 @@
           </div>
         </div>
       </section>
-  
-      <!-- Catégorie : Plats -->
+    
+      <!-- Plats -->
       <section id="plats" class="mb-5">
         <h2 class="text-center mb-4">Plats</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Plat">
-              <div class="card-body">
-                <h5 class="card-title">Filet de Boeuf</h5>
-                <p class="card-text">Servi avec une sauce au poivre et des pommes de terre sautées.</p>
+        <div class="container">
+          <div class="row g-4 text-center">
+            <!-- Carte 1 -->
+            <div class="col-md-6">
+              <div class="card">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Plat" style="height: 300px;">
+                <div class="card-body">
+                  <h5 class="card-title">Filet de Boeuf</h5>
+                  <p class="card-text">Servi avec une sauce au poivre et des pommes de terre sautées.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 popular">
-            <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Plat populaire">
-              <div class="card-body">
-                <h5 class="card-title">Poulet Rôti</h5>
-                <p class="card-text">Poulet tendre accompagné de légumes de saison.</p>
+            <!-- Carte 2 -->
+            <div class="col-md-6">
+              <div class="card">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Plat" style="height: 300px;">
+                <div class="card-body">
+                  <h5 class="card-title">Poulet Rôti</h5>
+                  <p class="card-text">Poulet tendre accompagné de légumes de saison.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Carte 3 -->
+            <div class="col-md-6">
+              <div class="card">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Plat" style="height: 300px;">
+                <div class="card-body">
+                  <h5 class="card-title">Saumon Grillé</h5>
+                  <p class="card-text">Saumon parfaitement grillé avec une touche de citron.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Carte 4 -->
+            <div class="col-md-6">
+              <div class="card">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Plat" style="height: 300px;">
+                <div class="card-body">
+                  <h5 class="card-title">Risotto</h5>
+                  <p class="card-text">Un risotto crémeux aux champignons et parmesan.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
   
-      <!-- Catégorie : Desserts -->
+      <!-- Desserts -->
       <section id="desserts" class="mb-5">
         <h2 class="text-center mb-4">Desserts</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
+        <div class="row g-4 text-center">
+          <div class="col-md-6">
             <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Dessert">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Dessert" style="height: 300px;">
               <div class="card-body">
                 <h5 class="card-title">Tarte Tatin</h5>
                 <p class="card-text">Un dessert caramélisé servi avec une boule de glace vanille.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 popular">
+          <div class="col-md-6">
             <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Dessert populaire">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Dessert" style="height: 300px;">
               <div class="card-body">
                 <h5 class="card-title">Crème Brûlée</h5>
                 <p class="card-text">Douceur à la vanille avec une croûte de caramel craquante.</p>
@@ -129,19 +205,19 @@
       <!-- Catégorie : Boissons -->
       <section id="boissons" class="mb-5">
         <h2 class="text-center mb-4">Boissons</h2>
-        <div class="row g-4">
+        <div class="row g-4 text-center">
           <div class="col-md-4">
             <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Boisson">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Boisson" style="height: 300px;">
               <div class="card-body">
                 <h5 class="card-title">Cocktail Maison</h5>
                 <p class="card-text">Un mélange rafraîchissant et fruité.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 popular">
+          <div class="col-md-4">
             <div class="card">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Boisson populaire">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top object-fit-cover" alt="Boisson" style="height: 300px;">
               <div class="card-body">
                 <h5 class="card-title">Vin Rouge</h5>
                 <p class="card-text">Un grand cru idéal pour accompagner vos plats.</p>
