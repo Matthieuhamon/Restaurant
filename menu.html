@@ -14,33 +14,139 @@
     <title>Restaurant</title>
 </head>
 <body>
-<section>
-    <header>
-        <!-- MENU NAVIGATION-->
-        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark" style="--bs-bg-opacity: 0.5;">
-            <div class="container-fluid">
-                <img class="navbar-brand" style="width: 35%" src="assets/img/logo.svg" alt="">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto gap-4">
-                        <li class="nav-item">
-                            <a class="nav-link active titre fs-4" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link titre fs-4" href="menu.html">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link titre fs-4" href="reservation.html">Réservation</a>
-                        </li>
-                    </ul>
+    <section>
+        <img src="" alt="" class="object-fit-cover bg-img">
+        <header>
+            <!-- MENU NAVIGATION-->
+            <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark" style="--bs-bg-opacity: 0.5;">
+                <div class="container-fluid">
+                    <img class="navbar-brand" style="width: 35%" src="assets/img/logo.svg" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link titre fs-4" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active titre fs-4" href="menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link titre fs-4" href="reservation.html">Réservation</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+            <!-- FIN MENU NAVIGATION-->
+        </header>
+    </section>
+    <!-- Section Menu -->
+    <main class="container my-5">
+  
+      <!-- Catégorie : Entrées -->
+      <section id="entrees" class="mb-5">
+        <h2 class="text-center mb-4">Entrées</h2>
+        <div class="row g-4">
+          <!-- Exemple d'une carte Bootstrap -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Entrée">
+              <div class="card-body">
+                <h5 class="card-title">Salade César</h5>
+                <p class="card-text">Délicieuse salade composée de laitue, croûtons, parmesan et sauce César.</p>
+              </div>
             </div>
-        </nav>
-        <!-- FIN MENU NAVIGATION-->
-    </header>
-
-</section>
-</body>
+          </div>
+          <div class="col-md-4 popular">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Entrée populaire">
+              <div class="card-body">
+                <h5 class="card-title">Soupe à l'oignon</h5>
+                <p class="card-text">Un classique français avec une touche de fromage gratiné.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Catégorie : Plats -->
+      <section id="plats" class="mb-5">
+        <h2 class="text-center mb-4">Plats</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Plat">
+              <div class="card-body">
+                <h5 class="card-title">Filet de Boeuf</h5>
+                <p class="card-text">Servi avec une sauce au poivre et des pommes de terre sautées.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 popular">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Plat populaire">
+              <div class="card-body">
+                <h5 class="card-title">Poulet Rôti</h5>
+                <p class="card-text">Poulet tendre accompagné de légumes de saison.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Catégorie : Desserts -->
+      <section id="desserts" class="mb-5">
+        <h2 class="text-center mb-4">Desserts</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Dessert">
+              <div class="card-body">
+                <h5 class="card-title">Tarte Tatin</h5>
+                <p class="card-text">Un dessert caramélisé servi avec une boule de glace vanille.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 popular">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Dessert populaire">
+              <div class="card-body">
+                <h5 class="card-title">Crème Brûlée</h5>
+                <p class="card-text">Douceur à la vanille avec une croûte de caramel craquante.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Catégorie : Boissons -->
+      <section id="boissons" class="mb-5">
+        <h2 class="text-center mb-4">Boissons</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Boisson">
+              <div class="card-body">
+                <h5 class="card-title">Cocktail Maison</h5>
+                <p class="card-text">Un mélange rafraîchissant et fruité.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 popular">
+            <div class="card">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Boisson populaire">
+              <div class="card-body">
+                <h5 class="card-title">Vin Rouge</h5>
+                <p class="card-text">Un grand cru idéal pour accompagner vos plats.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+  </body>
+  </html>
